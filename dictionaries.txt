@@ -1,7 +1,9 @@
 hello	xin chao
-house	ngoi nha
-table	cai ban
-pen	cai but
-room	phong
-give up	bo cuoc
-wake up	thuc day
+life	cuoc song
+book	quyen sach
+student	hoc sinh
+teacher	giao vien
+school	truong hoc
+class	lop hoc
+run	chay
+search	tim kiem
