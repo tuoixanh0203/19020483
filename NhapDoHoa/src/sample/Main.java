@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Main.fxml"));
         primaryStage.setTitle("Dictionary");
         primaryStage.setScene(new Scene(root, 610, 395));
         primaryStage.show();

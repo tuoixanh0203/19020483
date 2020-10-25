@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="204.0" layoutY="75.0" text="Delete Word">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="140.0" text="Nhập từ Tiếng Anh bạn muốn xóa" />
+      <TextField layoutX="114.0" layoutY="188.0" prefHeight="25.0" prefWidth="344.0" />
+      <Button layoutX="39.0" layoutY="38.0" mnemonicParsing="false" text="Exit" />
+      <Button layoutX="424.0" layoutY="294.0" mnemonicParsing="false" text="OK" />
+   </children>
+</AnchorPane>

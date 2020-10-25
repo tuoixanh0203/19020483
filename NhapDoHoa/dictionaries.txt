@@ -1,4 +1,3 @@
-hello	xin chao
 life	cuoc song
 book	quyen sach
 student	hoc sinh
@@ -7,3 +6,4 @@ school	truong hoc
 class	lop hoc
 run	chay
 search	tim kiem
+hello	xin chao
