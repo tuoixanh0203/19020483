@@ -33,7 +33,7 @@ public class EditController {
         int cnt = 0, index = 0;
         for (Word i : controller.dic.getDic()) {
             cnt ++;
-            if (i.getWord_target().equals(editW)) {
+            if (i.getWord_target().equals(editW.getText())) {
                 index = cnt - 1;
             }
         }
