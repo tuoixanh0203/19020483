@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddController">
+   <children>
+      <Label layoutX="206.0" layoutY="77.0" text="ADD WORD">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="e" layoutX="196.0" layoutY="154.0" prefHeight="25.0" prefWidth="325.0" promptText="Nhập từ Tiếng Anh" />
+      <TextField fx:id="v" layoutX="196.0" layoutY="224.0" prefHeight="25.0" prefWidth="325.0" promptText="Nhập từ Tiếng Việt" />
+      <Button layoutX="469.0" layoutY="302.0" mnemonicParsing="false" onAction="#AddW" text="OK" />
+      <Button fx:id="exit" layoutX="22.0" layoutY="22.0" mnemonicParsing="false" onAction="#SceneToMain" text="Exit" />
+      <Label layoutX="70.0" layoutY="158.0" text="English" />
+      <Label layoutX="70.0" layoutY="228.0" text="Vietnamese" />
+   </children>
+</AnchorPane>

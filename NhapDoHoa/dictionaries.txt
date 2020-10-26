@@ -1,9 +1,0 @@
-life	cuoc song
-book	quyen sach
-student	hoc sinh
-teacher	giao vien
-school	truong hoc
-class	lop hoc
-run	chay
-search	tim kiem
-hello	xin chao

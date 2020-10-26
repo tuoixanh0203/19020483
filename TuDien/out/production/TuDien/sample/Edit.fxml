@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.EditController">
+   <children>
+      <Label layoutX="213.0" layoutY="75.0" text="EDIT WORD">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="132.0" text="Nhập từ bạn muốn sửa">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="200.0" text="Sửa thành:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="135.0" layoutY="243.0" text="English" />
+      <Label layoutX="135.0" layoutY="281.0" text="Vietnamsese" />
+      <TextField fx:id="editW" layoutX="110.0" layoutY="161.0" prefHeight="25.0" prefWidth="422.0" promptText="english" />
+      <Button layoutX="481.0" layoutY="336.0" mnemonicParsing="false" onAction="#EditW" text="OK" />
+      <Button layoutX="29.0" layoutY="26.0" mnemonicParsing="false" onAction="#SceneToMain" text="Exit" />
+      <TextField fx:id="e" layoutX="257.0" layoutY="239.0" prefHeight="25.0" prefWidth="274.0" promptText="nhập từ tiếng Anh" />
+      <TextField fx:id="v" layoutX="257.0" layoutY="277.0" prefHeight="25.0" prefWidth="274.0" promptText="nhập từ tiếng Việt" />
+   </children>
+</AnchorPane>

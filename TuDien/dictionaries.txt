@@ -1,0 +1,5 @@
+house	ngôi nhà
+wallet	cái ví
+wander	đi lang thang; sự đi lang thang
+want	muốn
+war	chiến tranh
