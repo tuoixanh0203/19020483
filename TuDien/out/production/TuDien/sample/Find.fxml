@@ -19,5 +19,6 @@
             <Font size="24.0" />
          </font>
       </Label>
+      <Button fx:id="read" layoutX="197.0" layoutY="124.0" mnemonicParsing="false" onAction="#Speak" text="read" />
    </children>
 </AnchorPane>
